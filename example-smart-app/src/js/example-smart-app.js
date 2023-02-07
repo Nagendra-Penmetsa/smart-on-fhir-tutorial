@@ -22,7 +22,7 @@
                     }
                   });
         var alg = smart.patient.api.fetchAll({
-                    "type": 'AllergyItolerance',
+                    "type": 'AllergyIntolerance',
                     "query": {"client-status": 'active' }
                    });
 
