@@ -106,7 +106,7 @@
     });
 
     return getQuantityValueAndUnit(formattedBPObservations[0]);
-  
+  }
 
   function getQuantityValueAndUnit(ob) {
     if (typeof ob != 'undefined' &&
