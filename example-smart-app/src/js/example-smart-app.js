@@ -28,7 +28,6 @@
         var med = smart.patient.api.fetchAll({
                      "type": 'Medication',
                      "query": {"patient":smart.patient.id, "status": 'active'}
-                     }
                    });
 
         $.when(pt, obv, alg, med).fail(onError);
