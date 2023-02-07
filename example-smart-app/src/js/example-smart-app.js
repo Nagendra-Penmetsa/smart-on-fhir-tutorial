@@ -26,7 +26,7 @@
                      "query": {"clinical-status": 'active'}
                    });
         var med = smart.patient.api.fetchAll({
-                     "type": 'Medication',
+                     "type": 'MedicationRequest',
                      "query": {"patient":smart.patient.id, "status": 'active'}
                    });
 
