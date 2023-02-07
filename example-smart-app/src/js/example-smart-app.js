@@ -22,8 +22,8 @@
                     }
                   });
         var alg = smart.patient.api.fetchAll({
-                    type: 'AllergyItolerance',
-                    query: {"client-status": 'active' }
+                    "type": 'AllergyItolerance',
+                    "query": {"client-status": 'active' }
                    });
 
         $.when(pt, obv, alg).fail(onError);
