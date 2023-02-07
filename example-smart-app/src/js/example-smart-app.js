@@ -29,6 +29,7 @@
         $.when(pt, obv, alg).fail(onError);
 
         $.when(pt, obv, alg).done(function(patient, obv, allergy) {
+          console.log(allergy);
           var byCodes = smart.byCodes(obv, 'code');
           var gender = patient.gender;
 
